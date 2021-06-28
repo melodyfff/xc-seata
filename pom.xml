@@ -23,6 +23,7 @@
     <modules>
         <module>nacos-config-center</module>
         <module>simple-example</module>
+        <module>seata-example</module>
     </modules>
 
     <dependencyManagement>
