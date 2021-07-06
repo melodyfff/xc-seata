@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-center
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+#        namespace: 6299da0d-4e43-4140-b480-1639d4939964 # namespace的ID
+#        group: HELLO
+#        # DataID的格式如下:${prefix}-${spring.profile.active}.${file-extension}
+#        prefix: application-dev
+#        file-extension: yml
+  profiles:
+    active: dev
